@@ -10,7 +10,7 @@
    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
    <!-- Custom styles for this template -->
-   <link href="/css/heroic-features.css" rel="stylesheet">
+   <link href="/css/suport.css" rel="stylesheet">
 
   <title>VMFRP - Suporte</title>
 </head>
@@ -44,8 +44,72 @@
     </div>
   </nav>
 
-    <img class="manutencao" src="/assets/manutenção.png" alt="manutenção">
-    <img class="manutencao" src="/assets/mensagem_manutenção.gif" alt="manutenção">
+  <h1>Central de suporte</h1>
+
+<form action="#" method="post">
+<fieldset>
+	
+	<fieldset class="grupo">
+		<div class="campo">
+			<label for="nome">Nome</label>
+			<input type="text" id="nome" name="nome" style="width: 20em" value="" />
+		</div>
+		<div class="campo">
+			<label for="snome">Sobrenome</label>
+			<input type="text" id="snome" name="snome" style="width: 20em" value="" />
+		</div>
+	</fieldset>	
+	
+	<div class="campo">
+		<label>Sexo</label>
+		<label class="checkbox">
+			<input type="radio" name="sexo" value="masculino"> Masculino
+		</label>
+		<label class="checkbox">
+			<input type="radio" name="sexo" value="feminino"> Feminino
+		</label>
+	</div>
+
+	<div class="campo">
+		<label for="email">E-mail</label>
+		<input type="text" id="email" name="email" style="width: 41em" value="" />
+	</div>
+
+	<div class="campo">
+		<label for="telefone">Telefone</label>
+		<input type="text" id="telefone" name="telefone" style="width: 20em"  value="" />
+	</div>
+	
+	<fieldset class="grupo">
+		<div class="campo">
+			<label for="cidade">Cidade</label>
+			<input type="text" id="cidade" name="cidade" style="width: 20em" value="" />
+		</div>
+		<div class="campo">
+			<label for="estado">Estado</label>
+			<select name="estado" id="estado">
+				<option value="">--</option>
+				<option value="PR">PR</option>
+			</select>
+		</div>
+	</fieldset>
+
+	<div class="campo">
+		<label for="mensagem">Mensagem</label>
+		<textarea rows="6" style="width: 41em" id="mensagem" name="mensagem"></textarea>
+	</div>
+
+	<div class="campo">
+		<label>Newsletter</label>
+		<label class="checkbox">
+			<input type="checkbox" name="newsletter" value="1"> Gostaria de receber a Newsletter da empresa
+		</label>
+	</div>
+	
+	<button class="botao submit" type="submit" name="submit">Enviar</button>
+	
+</fieldset>
+</form>
   
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
