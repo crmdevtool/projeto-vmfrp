@@ -6,4 +6,4 @@
 ![Screenshot](screenshot1.png)
 
 Copyright and License
-Copyright (c) 2019 Adimael BR. Code released under the MIT license.
+Copyright (c) 2019. Code released under the MIT license.
